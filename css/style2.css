@@ -15,8 +15,41 @@ a{
     --main-color : #6B62C5;
     --secondary-color :#1BBF00;
     --descriptionText-color : #E6E5F3;
-    --primary-font:'Open Sans', sans-serif;
-    --secondary-font: 'Paprika', cursive;
+    --headerText-color : #FAFAFE;
+     --text_color : #141135;
+    --primary-font :'Open Sans', sans-serif;
+    --secondary-font : 'Paprika', cursive;
     --rare-font : 'Open Sans', sans-serif;
    
+}
+.navbar{
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+.navbar-expand-lg .navbar-collapse .nav-link {
+    font-family: var(--primary-font);
+   font-weight: 600;
+   font-size: 18;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: var(--headerText-color);
+}
+
+.navbar-expand-lg .navbar-collapse .nav-link:hover{
+    color: var(--secondary-color);
+}
+.navbar-expand-lg .navbar-collapse .nav-link:hover  i {
+    color: var(--headerText-color);
+}
+.nav_btn button{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    background-color: var(--secondary-color);
+    border-radius: 100px;
+    border: none;
+    color: var(--headerText-color);
+
 }
