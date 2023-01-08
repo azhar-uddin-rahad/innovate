@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8px;
+}
+ul,ol{
+ list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --main-color : #6B62C5;
+    --secondary-color :#1BBF00;
+    --descriptionText-color : #E6E5F3;
+    --primary-font:'Open Sans', sans-serif;
+    --secondary-font: 'Paprika', cursive;
+    --rare-font : 'Open Sans', sans-serif;
+   
+}
