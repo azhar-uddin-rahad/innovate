@@ -63,8 +63,6 @@ a{
 }
 #banner{
     position: relative;
-   
-    
     
 
 }
@@ -109,6 +107,37 @@ a{
 
 .btn1:hover{
     background-color: var(--secondary-color);
+
+}
+.card-wraper{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.card-wraper h3{
+    font-family: var(--primary-font);
+    font-size: 64px;
+    color: var(--secondary-color);
+    font-weight: 800;
+    padding-bottom: 50px;
     
+}
+.card-wraper p{
+    font-family: var(--primary-font);
+    font-size: 36px;
+    color: #141135;;
+    font-weight: 700;
+
+}
+.card-border{
+    position: relative;
+}
+
+.borderbar{
+    height:120px;
+    width: 2px;
+    position: absolute;
+    top: -30px;
+   background-color: gray;
 }
 
