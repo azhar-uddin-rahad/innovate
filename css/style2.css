@@ -15,11 +15,12 @@ a{
     --main-color : #6B62C5;
     --secondary-color :#1BBF00;
     --descriptionText-color : #E6E5F3;
+    --discription2-color: #726E9E;
     --headerText-color : #FAFAFE;
      --text_color : #141135;
     --primary-font :'Open Sans', sans-serif;
     --secondary-font : 'Paprika', cursive;
-    --rare-font : 'Open Sans', sans-serif;
+    --rare-font : 'Nunito', sans-serif;
    
 }
 .navbar{
@@ -140,4 +141,49 @@ a{
     top: -30px;
    background-color: gray;
 }
+.chooseContent {
+    position: relative;
+    display: flex;
+    gap: 37px;
+  
+  
+}
+.chooseContent .circle{
+   padding-top: 20px;
 
+}
+.circle::after{
+    content: " ";
+    background-color: #CBC8F0;;
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    left: -8px;  
+}
+.circle::before{
+    content: " ";
+    background-color: var(--secondary-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    
+}
+
+.chooseContent p{
+    font-family: var(--secondary-font);
+    color: var(--discription2-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 200px;
+}
+
+.chooseContent:hover{
+  background-color: #1BBF00;
+  padding: 20px;
+}
