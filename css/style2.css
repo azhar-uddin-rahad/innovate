@@ -25,6 +25,14 @@ a{
 .navbar{
     background-color: var(--main-color);
     padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 80%;
+   
+
 }
 .navbar-expand-lg .navbar-collapse .nav-link {
     font-family: var(--primary-font);
@@ -53,3 +61,54 @@ a{
     color: var(--headerText-color);
 
 }
+#banner{
+    position: relative;
+   
+    
+    
+
+}
+.overlay{
+    background-color: rgba(106, 98, 197, 0.9);
+    padding-top: 250px;
+    padding-bottom: 253px;
+    opacity: 1;
+}
+.banner-content h1{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 84px;
+    text-transform: capitalize;
+    color: var(--headerText-color);
+    line-height: 100px;
+}
+.banner-content p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 180px;
+    padding-right:180px;
+    line-height: 40px;
+    color: var(--descriptionText-color);
+}
+
+.btn1{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--headerText-color);
+    border-radius: 100px;
+    padding: 20px 40px;
+    border: 2px solid var(--secondary-color);
+    background-color: Transparent;
+    background-color:none;
+    transition: all linear .3s;
+
+
+}
+
+.btn1:hover{
+    background-color: var(--secondary-color);
+    
+}
+
