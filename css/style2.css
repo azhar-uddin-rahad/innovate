@@ -142,48 +142,94 @@ a{
    background-color: gray;
 }
 .chooseContent {
-    position: relative;
     display: flex;
-    gap: 37px;
-  
+    gap: 5%;
+    padding: 0px 0px 0px 28px;
+    border-radius: 12px;
+    transition: all linear .3s;
+    z-index: -2;
   
 }
-.chooseContent .circle{
-   padding-top: 20px;
+.chooseContent:hover{
+    background:#ffff;
+    padding-top: 42px ;
+    padding-bottom: 42px;
+
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    margin-bottom: 20px;
+}
+.chooseContent:hover :last-child{
+    margin-bottom: 0px;
+} 
+.chooseLeft
+{
+    width: 10%;
+    position: relative;
 
 }
-.circle::after{
-    content: " ";
-    background-color: #CBC8F0;;
-    width: 25px;
-    height: 25px;
-    border-radius: 12px;
-    position: absolute;
-    z-index: 1;
-    left: -8px;  
-}
-.circle::before{
-    content: " ";
+ .circle{ 
     background-color: var(--secondary-color);
     width: 25px;
     height: 25px;
+    border-radius: 50%;
+    
+}
+
+.circle::after{
+    content: " ";
+    background-color: #CBC8F0;
+    width: 25px;
+    height: 25px;
     border-radius: 12px;
     position: absolute;
-    z-index: -1;
-    left: -20px;
+    left: 15px;
+    z-index: 1;
+    
     
 }
 
 .chooseContent p{
+    width: 80%;
     font-family: var(--secondary-font);
     color: var(--discription2-color);
     font-weight: 400;
     font-size: 18px;
+    padding-right: 50px;
+    box-sizing: border-box;
     line-height: 30px;
-    padding-right: 200px;
+  
 }
 
-.chooseContent:hover{
-  background-color: #1BBF00;
-  padding: 20px;
+.chooseRight h3{
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 48px;
+color: var(--text_color);
+padding-bottom: 30px;
+
+}
+
+.chooseRight p{
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: var(--discription2-color);
+}
+.btn1{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--text_color);
+    border-radius: 100px;
+    padding: 20px 40px;
+    border: 2px solid var(--secondary-color);
+    background-color: Transparent;
+    background-color:none;
+    transition: all linear .3s;
+}
+
+.btn1:hover{
+    background-color: var(--secondary-color);
+
 }
