@@ -221,20 +221,107 @@ a {
   background-color: var(--secondary-color);
 }
 .cart2 {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f6f5ff;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
+
 .whatDo h3 {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 48px;
- color: var(--text_color);
- padding-bottom: 15px;
+  color: var(--text_color);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.whatDo p{
-font-family: var(--primary-font);
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-color: var(--discription2-color);
+.whatDo p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: var(--discription2-color);
+}
+.cardCategory {
+  text-align: center;
+  box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+  border-radius: 20px;
+  background: #ffffff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  height: 395px ;
+  transition: all linear 0.3s;
+}
+.cardCategory:hover{
+  background-color: var(--main-color);
+}
+.cardCategory:hover h4{
+  color: var(--headerText-color);
+}
+.cardCategory:hover p{
+ color: #E6E5F3;
+}
+.cardCategory:hover a:after{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.cardCategory .card2Icon {
+  margin-bottom: 20px;
+  
+}
+
+.card2Details h4 {
+  font-family: var(--primary-font);
+  padding-left: 52px;
+  padding-right: 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  transition: all linear 0.3s;
+}
+.card2Details p {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--discription2-color);
+  transition: all linear 0.3s;
+  
+}
+
+
+.card2Details a {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 10px;
+  color: var(--text_color);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.card2Details a::after{
+  content: '';
+  position: absolute;
+  background-color: rgba(25, 191, 0, 0.3);
+  left: 90px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all linear 0.3s;
+  
+  
+}
+.card2Details a:hover::after{
+  left: 0;
 }
