@@ -269,8 +269,8 @@ a {
 }
 .cardCategory .card2Icon {
   margin-bottom: 20px;
+  
 }
-
 .card2Details h4 {
   font-family: var(--primary-font);
   padding-left: 52px;
@@ -357,5 +357,37 @@ a {
 
 .groupImg{
   margin-top: -50px;
+
+}
+/* choose right start  */
+.chooseRightcard{
+  background-color: #F9F9FB;
+  padding: 100px 0;
+}
+.chooseRightIcon{
+  margin-bottom: 20px;
+}
+
+.chooseRightIcon img{
+  width: 100%;
+
+}
+.money{
+font-family: var(--rare-font);
+font-weight: 800;
+font-size: 48px;
+color: var(--secondary-color);
+margin-bottom: 30px;
+
+}
+
+.moneyDetails{
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: var(--discription2-color);
+width: 320px;
+margin: 0 auto;
 
 }
