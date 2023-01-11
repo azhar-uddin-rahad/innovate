@@ -488,3 +488,25 @@ text-transform: capitalize;
 color: #FEFEFE;
 opacity: 0.9;
 }
+
+.features h4{
+font-family: var(--primary-font);
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #fff;
+margin-bottom: 30px;
+padding-left: 30px;
+
+
+}
+
+.features ul li a {
+  font-family: var(--rare-font);
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+line-height: 40px;
+color: #fff;
+}
