@@ -354,3 +354,8 @@ a {
   line-height: 30px;
   color: var(--text_color);
 }
+
+.groupImg{
+  margin-top: -50px;
+
+}
