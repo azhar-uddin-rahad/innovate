@@ -111,9 +111,22 @@ a {
   background-color: none;
   transition: all linear 0.3s;
 }
+.btn10 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--headerText-color);
+  border-radius: 100px;
+  padding: 20px 40px;
+  border: 2px solid var(--secondary-color);
+  background-color: Transparent;
+  background-color: none;
+  transition: all linear 0.3s;
+}
 
-.btn1:hover {
+.btn1:hover,.btn10:hover {
   background-color: var(--secondary-color);
+  color: var(--headerText-color);
 }
 .card-wraper {
   padding-top: 200px;
@@ -156,11 +169,10 @@ a {
   background: #ffff;
   padding-top: 42px;
   padding-bottom: 42px;
-
-  box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
-  margin-bottom: 20px;
+  box-shadow: 10px 30px 60px 20px rgba(162, 169, 192, 0.15);
+  margin-bottom: 30px;
 }
-.chooseContent:hover :last-child {
+.chooseContent:last-child:hover  {
   margin-bottom: 0px;
 }
 .chooseLeft {
