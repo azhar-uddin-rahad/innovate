@@ -29,6 +29,13 @@ a {
   --secondary-font: "Paprika", cursive;
   --rare-font: "Nunito", sans-serif;
 }
+
+/* channge navbar toglar color  */
+
+.navbar-toggler {
+  color: #fff;  
+}
+
 .navbar {
   background-color: var(--main-color);
   padding: 20px 0;
