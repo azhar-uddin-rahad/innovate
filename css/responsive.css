@@ -1,107 +1,448 @@
-@media(max-width:575px){
-    .navbar {
-        background-color: #160C6D;
-        opacity: 1;
-        
-      }
-      .navbar-collapse {
-        text-align: center;
+@media (min-width:768px) and (max-width: 991px){
+  .navbar {
+    background-color: #160c6d;
+    opacity: 1;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-      }
-      .banner-content h1 {
-        font-size: 20px;
-        line-height: 50px;
-      }
-      .banner-content p {
-        font-size: 14px;
-        line-height: 30px;
-        padding-left:0;
-        padding-right:0;
-      }
+  .overlay {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .btn1 {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 250px;
+  }
+  .btn10 {
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .card-wraper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .chooseContent {
+    gap: 10%;
+  }
+  .row {
 
-      .overlay {
-        padding-top: 150px;
-        padding-bottom: 150px;
-        
-      }
-      .btn1 {
-        padding: 20px 40px;
-        margin-top: 30px;
-        margin-bottom: 5px;
-        width: 250px;
-      }
-      .btn10 {
-        padding: 20px 40px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 250px;
-      }
-      .card-wraper {
-        padding-top: 100px;
-        padding-bottom: 100px;
-      }
-      .chooseContent {
-        gap: 10%;
-        
-      }
-      .chooseContent p {
-        font-size: 14px;
-        line-height: 20px;
-        padding-right: 0px;
-      }
-      .chooseRight h3 {
-        font-size: 30px;
-        
-      }
-      .chooseRight p {
-        font-size: 14px;
-        line-height: 25px;
-      }
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
 
-      .card2Details h4 {
-        font-size: 20px;
-      }
-      .card2Details p {
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 16px;
-        line-height: 25px;
-        
-      }
-      .createHeader {
-        padding-top: 0px;
-        padding-bottom: 0px;
-      }
-      .createHeader h3 {
-        font-size: 25px;
-        margin-bottom: 20px; 
-      }
-      .createHeader p {
-        font-size: 14px;
-        padding: 0;
-        line-height: 20px;
-      }
+  .row > * {
+    padding-right: 0;
+    padding-left: 0;
+    
+  }
+  .chooseContent p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+    
+  }
+  .chooseRight h3 {
+    font-size: 30px;
+  }
+  .chooseRight p {
+    font-size: 13px;
+    line-height: 25px;
+    
+  }
+ 
+  .card2Details h4 {
+    font-size: 20px;
+  }
+  .card2Details p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .createHeader {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .cardCategory {
+     margin-right: 30px;
+  }
+  .createHeader h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .createHeader p {
+    font-size: 14px;
+    padding: 0;
+    line-height: 20px;
+  }
 
-      .anslysisDetails h4 {
-        padding-top: 20px;
-        font-size: 20px;
-      }
-      .anslysisDetails p {
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 20px;
-      }
-      .groupImg {
-        margin-top: 0px;
-        width: 350px;
-        text-align: center;
-      }
-      .groupImg img{
-        width: 100%;
-        text-align: center;
-      }
-     
-     
-      
+  .anslysisDetails h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .anslysisDetails p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .groupImg {
+    margin-top: 0px;
+    width: 400px;
+    
+  }
+
+  .groupImg img {
+    width: 100%;
+    
+  }
+  .infoCard {
+    margin-top: 100px;
+  }
+ 
+
+  .starIcon {
+    color: #ff7628;
+    margin-top: -50px;
+  }
+  .infoDetails {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+
+  .infoDetails .bigDetails {
+    font-size: 20px;
+ 
+  }
+
+  .likeHeader h3 {
+    
+    font-size: 30px;
+    
+  }
+  .postDetails {
+   
+    font-size: 14px;
+    
+  }
+  .postDetails:hover {
+    
+    font-size: 13px;
+  }
+
+}
+@media (min-width:576px) and (max-width: 767px){
+  .navbar {
+    background-color: #160c6d;
+    opacity: 1;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .overlay {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .btn1 {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 250px;
+  }
+  .btn10 {
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .card-wraper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .chooseContent {
+    gap: 10%;
+  }
+  .row {
+
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .row > * {
+    padding-right: 0;
+    padding-left: 0;
+    
+  }
+  .chooseContent p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+    
+  }
+  .chooseRight h3 {
+    font-size: 30px;
+  }
+  .chooseRight p {
+    font-size: 13px;
+    line-height: 25px;
+    
+  }
+ 
+  .card2Details h4 {
+    font-size: 20px;
+  }
+  .card2Details p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .createHeader {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .createHeader h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .createHeader p {
+    font-size: 14px;
+    padding: 0;
+    line-height: 20px;
+  }
+
+  .anslysisDetails h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .anslysisDetails p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .groupImg {
+    margin-top: 0px;
+    width: 400px;
+    
+  }
+
+  .groupImg img {
+    width: 100%;
+    
+  }
+  .infoCard {
+    margin-top: 100px;
+  }
+ 
+
+  .starIcon {
+    color: #ff7628;
+    margin-top: -50px;
+  }
+  .infoDetails {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+
+  .infoDetails .bigDetails {
+    font-size: 20px;
+ 
+  }
+
+  .likeHeader h3 {
+    
+    font-size: 30px;
+    
+  }
+  .postDetails {
+   
+    font-size: 14px;
+    
+  }
+  .postDetails:hover {
+    
+    font-size: 13px;
+  }
+
+}
+
+
+@media (max-width: 575px) {
+  .navbar {
+    background-color: #160c6d;
+    opacity: 1;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .banner-content p {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .overlay {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .btn1 {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 250px;
+  }
+  .btn10 {
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .card-wraper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .chooseContent {
+    gap: 10%;
+  }
+  .row {
+
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .row > * {
+    padding-right: 0;
+    padding-left: 0;
+    
+  }
+  .chooseContent p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+    
+  }
+  .chooseRight h3 {
+    font-size: 30px;
+  }
+  .chooseRight p {
+    font-size: 13px;
+    line-height: 25px;
+    
+  }
+ 
+  .card2Details h4 {
+    font-size: 20px;
+  }
+  .card2Details p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .createHeader {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .createHeader h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .createHeader p {
+    font-size: 14px;
+    padding: 0;
+    line-height: 20px;
+  }
+
+  .anslysisDetails h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .anslysisDetails p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .groupImg {
+    margin-top: 0px;
+    width: 300px;
+    
+  }
+
+  .groupImg img {
+    width: 100%;
+    
+  }
+  .infoCard {
+    margin-top: 100px;
+  }
+  .cardHeight {
+    height: 400px;
+  }
+
+  .starIcon {
+    color: #ff7628;
+    margin-top: -50px;
+  }
+  .infoDetails {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+
+  .infoDetails .bigDetails {
+    font-size: 20px;
+ 
+  }
+
+  .likeHeader h3 {
+    
+    font-size: 30px;
+    
+  }
+  .postDetails {
+   
+    font-size: 14px;
+    
+  }
+  .postDetails:hover {
+    
+    font-size: 13px;
+  }
 
 }
